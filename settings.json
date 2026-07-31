@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "split",
   "soft_wrap": "editor_width",
   "proxy": "",
   "active_pane_modifiers": {
@@ -86,6 +87,12 @@
     "dock": "left",
   },
   "git_panel": {
+    "commit_title_max_length": 0,
+    "show_count_badge": false,
+    "fallback_branch_name": "main",
+    "sort_by": "path",
+    "status_style": "label_color",
+    "default_width": 360.0,
     "group_by": "status",
     "collapse_untracked_diff": false,
     "tree_view": false,
@@ -139,10 +146,15 @@
     "profiles": {},
     "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini",
+      "enable_thinking": true,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-pro",
     },
     "model_parameters": [],
+    "commit_message_model": {
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-pro",
+    },
   },
   "project_panel": {
     "hide_hidden": true,
