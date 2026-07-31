@@ -11,63 +11,63 @@
   "proxy": "",
   "active_pane_modifiers": {
     "border_size": 0.0,
-    "inactive_opacity": 1.0
+    "inactive_opacity": 1.0,
   },
   "bottom_dock_layout": "contained",
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   "status_bar": {
     "line_endings_button": true,
     "cursor_position_button": false,
-    "active_language_button": true
+    "active_language_button": true,
   },
   "diagnostics": {
     "button": true,
     "inline": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "colorize_brackets": false,
   "code_lens": "off",
   "inlay_hints": {
-    "enabled": false
+    "enabled": false,
   },
   "show_whitespaces": "selection",
   "minimap": {
     "max_width_columns": 80,
     "thumb": "always",
-    "show": "always"
+    "show": "always",
   },
   "scrollbar": {
     "cursors": true,
-    "git_diff": true
+    "git_diff": true,
   },
   "gutter": {
-    "folds": true
+    "folds": true,
   },
   "mouse_wheel_zoom": true,
   "which_key": {
     "delay_ms": 1000,
-    "enabled": false
+    "enabled": false,
   },
   "unnecessary_code_fade": 0.3,
   "agent_ui_font_size": 16.0,
   "buffer_line_height": "comfortable",
   "git": {
     "blame": {
-      "show_avatar": false
+      "show_avatar": false,
     },
     "branch_picker": {
-      "show_author_name": true
+      "show_author_name": true,
     },
     "inline_blame": {
-      "location": "status_bar"
+      "location": "status_bar",
     },
-    "enable_status": true
+    "enable_status": true,
   },
   "format_on_save": "on",
   "edit_predictions": {
@@ -129,28 +129,6 @@
   "ui_font_family": ".ZedSans",
   "buffer_font_weight": 400.0,
   "buffer_font_family": "JetBrains Mono",
-  "wsl_connections": [
-    {
-      "distro_name": "Ubuntu-22.04",
-      "user": null,
-      "projects": [
-        {
-          "paths": ["/home/foxxgreeley"],
-        },
-        {
-          "paths": [
-            "/home/foxxgreeley/laravel/apps/contact-north-chatgpt-experiments",
-          ],
-        },
-        {
-          "paths": ["/home/foxxgreeley/nextjs"],
-        },
-        {
-          "paths": ["/home/foxxgreeley/nextjs/contact-north-ai-tools/./"],
-        },
-      ],
-    },
-  ],
   "agent": {
     "enable_feedback": false,
     "button": true,
@@ -198,7 +176,7 @@
   },
   "terminal": {
     "scrollbar": {
-      "show": "auto"
+      "show": "auto",
     },
     "copy_on_select": true,
     "show_count_badge": false,
