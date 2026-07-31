@@ -1,0 +1,233 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "proxy": "",
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+    "inactive_opacity": 1.0
+  },
+  "bottom_dock_layout": "contained",
+  "tab_bar": {
+    "show": true
+  },
+  "status_bar": {
+    "line_endings_button": true,
+    "cursor_position_button": false,
+    "active_language_button": true
+  },
+  "diagnostics": {
+    "button": true,
+    "inline": {
+      "enabled": false
+    }
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "colorize_brackets": false,
+  "code_lens": "off",
+  "inlay_hints": {
+    "enabled": false
+  },
+  "show_whitespaces": "selection",
+  "minimap": {
+    "max_width_columns": 80,
+    "thumb": "always",
+    "show": "always"
+  },
+  "scrollbar": {
+    "cursors": true,
+    "git_diff": true
+  },
+  "gutter": {
+    "folds": true
+  },
+  "mouse_wheel_zoom": true,
+  "which_key": {
+    "delay_ms": 1000,
+    "enabled": false
+  },
+  "unnecessary_code_fade": 0.3,
+  "agent_ui_font_size": 16.0,
+  "buffer_line_height": "comfortable",
+  "git": {
+    "blame": {
+      "show_avatar": false
+    },
+    "branch_picker": {
+      "show_author_name": true
+    },
+    "inline_blame": {
+      "location": "status_bar"
+    },
+    "enable_status": true
+  },
+  "format_on_save": "on",
+  "edit_predictions": {
+    "allow_data_collection": "no",
+    "provider": "copilot",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "outline_panel": {
+    "button": true,
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left",
+  },
+  "git_panel": {
+    "group_by": "status",
+    "collapse_untracked_diff": false,
+    "tree_view": false,
+    "diff_stats": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "dock": "left",
+  },
+  "hover_popover_enabled": true,
+  "hover_popover_delay": 0,
+  "languages": {
+    "JavaScript": {
+      "format_on_save": "on",
+      "soft_wrap": "prefer_line",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"],
+        },
+      },
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"],
+        },
+      },
+    },
+  },
+  "disable_ai": false,
+  "toolbar": {
+    "selections_menu": true,
+    "code_actions": false,
+    "quick_actions": true,
+  },
+  "ui_font_family": ".ZedSans",
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "JetBrains Mono",
+  "wsl_connections": [
+    {
+      "distro_name": "Ubuntu-22.04",
+      "user": null,
+      "projects": [
+        {
+          "paths": ["/home/foxxgreeley"],
+        },
+        {
+          "paths": [
+            "/home/foxxgreeley/laravel/apps/contact-north-chatgpt-experiments",
+          ],
+        },
+        {
+          "paths": ["/home/foxxgreeley/nextjs"],
+        },
+        {
+          "paths": ["/home/foxxgreeley/nextjs/contact-north-ai-tools/./"],
+        },
+      ],
+    },
+  ],
+  "agent": {
+    "enable_feedback": false,
+    "button": true,
+    "tool_permissions": {
+      "default": "allow",
+    },
+    "dock": "right",
+    "profiles": {},
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini",
+    },
+    "model_parameters": [],
+  },
+  "project_panel": {
+    "hide_hidden": true,
+    "hide_root": false,
+    "git_status_indicator": false,
+    "diagnostic_badges": true,
+    "bold_folder_labels": false,
+    "auto_fold_dirs": true,
+    "git_status": true,
+    "folder_icons": true,
+    "default_width": 240.0,
+    "button": true,
+    "file_icons": true,
+    "dock": "left",
+  },
+  "tabs": {
+    "git_status": true,
+  },
+  "title_bar": {
+    "show_user_picture": true,
+    "show_user_menu": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_worktree_name": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": true,
+    "show_menus": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "terminal": {
+    "scrollbar": {
+      "show": "auto"
+    },
+    "copy_on_select": true,
+    "show_count_badge": false,
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+    },
+    "toolbar": {
+      "breadcrumbs": false,
+    },
+    "cursor_shape": "bar",
+    "font_weight": 400.0,
+    "font_family": ".ZedMono",
+    "font_size": 15.0,
+    "dock": "bottom",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "base_keymap": "JetBrains",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Colored Zed Icons Theme Dark",
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Colorizer Modified",
+  },
+}
