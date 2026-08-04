@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "diff_view_style": "split",
+  "diff_view_style": "unified",
   "soft_wrap": "editor_width",
   "proxy": "",
   "active_pane_modifiers": {
@@ -136,6 +136,22 @@
   "ui_font_family": ".ZedSans",
   "buffer_font_weight": 400.0,
   "buffer_font_family": "JetBrains Mono",
+  "language_models": {
+    "open_router": {
+      "available_models": [
+        {
+          "name": "deepseek/deepseek-v4-flash",
+          "display_name": "Deepseek v4 Flash Optimal",
+          "max_tokens": 2000000,
+          "provider": {
+            "order": ["parasail/fp8"],
+            "allow_fallbacks": false,
+            "require_parameters": false,
+          },
+        },
+      ],
+    },
+  },
   "agent": {
     "enable_feedback": false,
     "button": true,
@@ -146,14 +162,14 @@
     "profiles": {},
     "default_profile": "ask",
     "default_model": {
-      "enable_thinking": true,
+      "enable_thinking": false,
       "provider": "openrouter",
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
     },
     "model_parameters": [],
     "commit_message_model": {
       "provider": "openrouter",
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash-latest",
     },
   },
   "project_panel": {
@@ -193,7 +209,7 @@
     "copy_on_select": true,
     "show_count_badge": false,
     "shell": {
-      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "program": "wsl.exe",
     },
     "toolbar": {
       "breadcrumbs": false,
@@ -201,7 +217,7 @@
     "cursor_shape": "bar",
     "font_weight": 400.0,
     "font_family": ".ZedMono",
-    "font_size": 15.0,
+    "font_size": 13.0,
     "dock": "bottom",
   },
   "telemetry": {
